@@ -21,6 +21,7 @@
     "grunt-concurrent": "^1.0.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-rsync": "^0.6.2",
+    "grunt-gh-pages": "^0.9.1",
     "load-grunt-tasks": "^0.6.0",
     "time-grunt": "^1.0.0"
   }
