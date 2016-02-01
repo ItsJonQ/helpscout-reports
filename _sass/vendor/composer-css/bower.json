@@ -1,5 +1,6 @@
 {
-  "name": "helpscout-reports",
+  "name": "composer",
+  "homepage": "https://github.com/ItsJonQ/composer-css",
   "authors": [
     "ItsJonQ <itsjonq@gmail.com>"
   ],
@@ -7,17 +8,15 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "_sass/vendor/",
     "test",
     "tests"
   ],
   "dependencies": {
-    "bourbon": "~4.2.6",
-    "composer-css": "git@github.com:ItsJonQ/composer-css.git",
-    "bootstrap": "v4.0.0-alpha.2"
+    "bourbon": "~4.2.6"
   }
 }

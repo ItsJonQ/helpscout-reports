@@ -1,0 +1,28 @@
+// Components :: Flex
+
+.o-flex {
+  @include composer-each-breakpoint() {
+    @include align-items(center);
+    @include display(flex);
+    @include justify-content(space-between);
+  }
+}
+
+.o-flex__block {
+  @include composer-each-breakpoint() {
+    @include flex(1);
+  }
+}
+
+// Modifiers
+[class*="o-flex"] {
+  &.u-v-align-top {
+    @include align-items(flex-start);
+  }
+  &.u-v-align-middle {
+    @include align-items(center);
+  }
+  &.u-v-align-bottom {
+    @include align-items(flex-end);
+  }
+}

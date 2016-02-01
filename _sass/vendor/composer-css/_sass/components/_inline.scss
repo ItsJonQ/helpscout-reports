@@ -1,0 +1,14 @@
+// Components :: Inline
+
+.o-inline {
+  @include clearfix;
+  margin-bottom: -(#{map-get($spacing-sizes, xs)});
+  margin-left: 0;
+
+  &__item {
+    display: inline-block;
+    margin: 0 0 #{map-get($spacing-sizes, xs)};
+    padding: 0 0;
+    vertical-align: middle;
+  }
+}
