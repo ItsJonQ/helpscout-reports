@@ -1,0 +1,45 @@
+// Components :: Browser
+
+.c-browser {
+  background: linear-gradient(#fff 1%,#eef1f3 4%);
+  border-radius: 4px;
+  border: 1px solid #d8dee0;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  overflow: hidden;
+  position: relative;
+
+  &:before {
+    color: #E6EAEE;
+    content: "...";
+    display: block;
+    font-family: georgia;
+    font-size: 2em;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 4px;
+    line-height: 0;
+    padding: 6px 0 20px 10px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    text-shadow: -1px -1px 0 #d8dee0,1px -1px 0 #d8dee0,-1px 1px 0 #d8dee0,1px 1px 0 #d8dee0;
+    top: 0;
+  }
+
+  &__body {
+    border-top: $HS-border;
+    margin-top: 26px;
+  }
+}
+
+// Modifiers
+.c-browser--sm {
+  &:before {
+    font-size: 1.5em;
+    padding: 3px 0 20px 5px;
+  }
+
+  .c-browser__body {
+    margin-top: 18px;
+  }
+}

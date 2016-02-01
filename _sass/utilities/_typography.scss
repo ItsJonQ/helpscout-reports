@@ -25,6 +25,10 @@
   color: $HS-color-text-lighter;
 }
 
+// Kerning
+.u-text-kern-tight {
+  letter-spacing: -0.04rem !important;
+}
 
 // Size
 .u-text-sm {

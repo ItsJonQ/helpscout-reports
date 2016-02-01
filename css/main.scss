@@ -17,8 +17,10 @@
 @import "base/image";
 
 // Components
+@import "components/browser";
 @import "components/navbar";
 @import "components/section";
+@import "components/video-player";
 
 // Utilities
 @import "utilities/typography";

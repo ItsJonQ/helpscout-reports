@@ -1,0 +1,23 @@
+// Components :: Video Player
+
+.c-video-player {
+  position: relative;
+}
+
+.c-video-player__play {
+  @include transform(translate(-50%, -50%));
+  @include transition(background 0.3s ease);
+  background: rgba(black, 0.3);
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  left: 50%;
+  padding: 0.6rem 2rem;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+
+  &:hover {
+    background: rgba(black, 0.6);
+  }
+}

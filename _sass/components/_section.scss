@@ -3,15 +3,29 @@
 .c-section {
   padding-bottom: 40px;
   padding-top: 40px;
+}
 
-  min-height: 400px;
+.c-section-media {
+  position: relative;
 
-  & + & {
-    border-top: $HS-border;
+  &__image {
+    display: block;
   }
+}
+
+.c-section-arrow {
+
 }
 
 // Modifier
 .c-section--hero {
-  height: 60vh;
+  border-bottom: $HS-border;
 }
+
+.c-section-media {
+  &__image--offset {
+    position: absolute;
+  }
+}
+
+// Animations
