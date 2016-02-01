@@ -1,0 +1,40 @@
+// Utilities :: Typography
+
+// Brand color
+.u-text-brand-conversations {
+  color: $HS-color-app-conversations !important;
+}
+.u-text-brand-productivity {
+  color: $HS-color-app-productivity !important;
+}
+.u-text-brand-user {
+  color: $HS-color-app-user !important;
+}
+.u-text-brand-happiness {
+  color: $HS-color-app-happiness !important;
+}
+.u-text-brand-docs {
+  color: $HS-color-app-docs !important;
+}
+
+// Color
+.u-text-muted {
+  color: $HS-color-text-light;
+}
+.u-text-faint {
+  color: $HS-color-text-lighter;
+}
+
+
+// Size
+.u-text-sm {
+  font-size: 0.875rem !important;
+}
+
+// Weight
+.u-text-light {
+  font-weight: 300 !important;
+}
+.u-text-normal {
+  font-weight: 400 !important;
+}

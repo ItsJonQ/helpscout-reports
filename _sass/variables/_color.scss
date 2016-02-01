@@ -1,0 +1,21 @@
+// Variables :: Color
+
+// Base
+$HS-color-grey-light:            #f1f3f4;
+$HS-color-slate-light:           #7A868E;
+$HS-color-slate:                 #4b4b4b;
+$HS-color-slate-dark:            #2b2b2b;
+
+// App Colors
+$HS-color-app-background:        $HS-color-grey-light;
+$HS-color-app-conversations:     #68B3DC;
+$HS-color-app-productivity:      #6FCC8D;
+$HS-color-app-user:              #F0B864;
+$HS-color-app-happiness:         #917CB5;
+$HS-color-app-docs:              #EF7E79;
+
+// Text Color
+$HS-color-text:                  $HS-color-slate;
+$HS-color-text-dark:             $HS-color-slate-dark;
+$HS-color-text-light:            $HS-color-slate-light;
+$HS-color-text-lighter:          lighten($HS-color-slate-light, 20);

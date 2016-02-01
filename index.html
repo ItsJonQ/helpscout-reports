@@ -2,22 +2,174 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<section class="c-section" id="hs-reports-intro">
+  <div class="u-pad-v-xl u-pad-h-md">
+    <div class="o-flex">
+      <div class="o-flex__item u-width-1--fluid"></div>
+      <div class="o-flex__item u-width-4--fluid--at-md">
+        <h1 class="u-text-sm u-text-muted u-mrg-b-md">
+          <strong>Reports</strong>
+        </h1>
+        <h2 class="h1 u-text-light u-mrg-v-lg">
+          Get data-driven insights with reports
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <p>
+          <a href="https://secure.helpscout.net/members/plan/" class="btn btn-primary btn-lg u-width-10--fluid">Upgrade</a>
+        </p>
+        <p class="u-text-muted">
+          And unlock our awesome reports instantly!
+        </p>
+      </div>
+      <div class="o-flex__block u-pad-h-md">
+        <img src="images/intro-video.png" alt="" class="o-img-full">
+      </div>
+      <div class="o-flex__item u-width-1--fluid"></div>
+    </div>
+  </div>
+  <div class="u-pad-t-md u-text-center">
+    <p class="u-text-faint">Here's all the wonderful stull you'll be getting</p>
+    <p class="u-mrg-b-sm">
+      <i class="icon ion-ios-arrow-down u-text-faint h4 u-mrg-none"></i>
+    </p>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="c-section u-pad-h-md" id="conversations-report">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="u-pad-v-xl">
+        <h1 class="u-text-sm u-text-faint u-mrg-b-md u-text-brand-conversations">
+          <strong>Conversations Reports</strong>
+        </h1>
+        <h2 class="u-text-light u-mrg-b-md">
+          Track conversations and optimize
+        </h2>
+        <p class="u-text-muted">
+          See when your team is busiest, shuffle schedules when you need the whole team on deck, or make a data-backed case for that extra hire.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/screenshot.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="c-section u-pad-h-md" id="conversations-report">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/screenshot.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="u-pad-v-xl">
+        <h1 class="u-text-sm u-text-faint u-mrg-b-md u-text-brand-productivity">
+          <strong>Productivity Reports</strong>
+        </h1>
+        <h2 class="u-text-light u-mrg-b-md">
+          Dial-in average response times
+        </h2>
+        <p class="u-text-muted">
+          First impressions go a long way. Be more responsive and on point by monitoring how long your customers wait for that first touch point.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-section u-pad-h-md" id="user-report">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="u-pad-v-xl">
+        <h1 class="u-text-sm u-text-faint u-mrg-b-md u-text-brand-user">
+          <strong>User Reports</strong>
+        </h1>
+        <h2 class="u-text-light u-mrg-b-md">
+          Gain insight on your team's success
+        </h2>
+        <p class="u-text-muted">
+          As a manager, everything you need to provide valuable feedback and guidance for your team is on a single page. No prep work required!
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/screenshot.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-section u-pad-h-md" id="happiness-report">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/screenshot.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="u-pad-v-xl">
+        <h1 class="u-text-sm u-text-faint u-mrg-b-md u-text-brand-happiness">
+          <strong>Happiness Reports</strong>
+        </h1>
+        <h2 class="u-text-light u-mrg-b-md">
+          Tap into your customers' true feelings
+        </h2>
+        <p class="u-text-muted">
+          Track happiness about the support they receive from your team using customer satisfaction ratings. Learn what works with your customers (and what doesn’t) by easily viewing rated conversations and drilling down on the specific details.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-section u-pad-h-md" id="docs-report">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <div class="u-pad-v-xl">
+        <h1 class="u-text-sm u-text-faint u-mrg-b-md u-text-brand-docs">
+          <strong>Docs Reports</strong>
+        </h1>
+        <h2 class="u-text-light u-mrg-b-md">
+          Monitor the health of your Knowlegdge Base.
+        </h2>
+        <p class="u-text-muted">
+          Get creepy psychic insights into customers’ most common questions. Help them find the right answers at the right time by flagging what terms come up empty in your Docs search.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/screenshot.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-section" id="report-view">
+  <div class="row u-pad-v-lg u-mrg-b-xl">
+    <div class="col-md-8 col-md-offset-2 u-text-center">
+      <h1 class="h3 u-text-light u-mrg-b-md">Save your favorite reports with Views</h2>
+      <p class="u-text-muted u-width-10--fluid u-mrg-h-auto u-mrg-b-lg">
+        Distill your data with flexible filtering options in Reports Views. Views make it easy to save a set of filters and re-visit them in two clicks.
+      </p>
+      <div class="u-pad-h-md u-text-center">
+        <img src="images/report-view.gif" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="u-pad-v-xl u-text-center u-mrg-b-lg">
+    <h2 class="h4 u-text-normal">Gain superhero insights today</h2>
+    <p class="u-text-muted">
+      Better experience for your customers, less headaches for your team.<br>
+      Reports will be unlocked for you. Instantly.
+    </p>
+    <p>
+      <a href="https://secure.helpscout.net/members/plan/" class="btn btn-primary">Upgrade now</a>
+    </p>
+  </div>
 </div>
