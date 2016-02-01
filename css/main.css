@@ -5821,19 +5821,81 @@ img {
 .o-img-full {
   width: 100%; }
 
+.c-browser {
+  background: linear-gradient(#fff 1%, #eef1f3 4%);
+  border-radius: 4px;
+  border: 1px solid #d8dee0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative; }
+  .c-browser:before {
+    color: #E6EAEE;
+    content: "...";
+    display: block;
+    font-family: georgia;
+    font-size: 2em;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 4px;
+    line-height: 0;
+    padding: 6px 0 20px 10px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    text-shadow: -1px -1px 0 #d8dee0,1px -1px 0 #d8dee0,-1px 1px 0 #d8dee0,1px 1px 0 #d8dee0;
+    top: 0; }
+  .c-browser__body {
+    border-top: 1px solid #eee;
+    margin-top: 26px; }
+
+.c-browser--sm:before {
+  font-size: 1.5em;
+  padding: 3px 0 20px 5px; }
+.c-browser--sm .c-browser__body {
+  margin-top: 18px; }
+
 .c-navbar {
   background: #2a4258;
   height: 40px; }
 
 .c-section {
   padding-bottom: 40px;
-  padding-top: 40px;
-  min-height: 400px; }
-  .c-section + .c-section {
-    border-top: 1px solid #eee; }
+  padding-top: 40px; }
+
+.c-section-media {
+  position: relative; }
+  .c-section-media__image {
+    display: block; }
 
 .c-section--hero {
-  height: 60vh; }
+  border-bottom: 1px solid #eee; }
+
+.c-section-media__image--offset {
+  position: absolute; }
+
+.c-video-player {
+  position: relative; }
+
+.c-video-player__play {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  left: 50%;
+  padding: 0.6rem 2rem;
+  position: absolute;
+  top: 50%;
+  z-index: 2; }
+  .c-video-player__play:hover {
+    background: rgba(0, 0, 0, 0.6); }
 
 .u-text-brand-conversations {
   color: #68B3DC !important; }
@@ -5855,6 +5917,9 @@ img {
 
 .u-text-faint {
   color: #b1b8bd; }
+
+.u-text-kern-tight {
+  letter-spacing: -0.04rem !important; }
 
 .u-text-sm {
   font-size: 0.875rem !important; }
