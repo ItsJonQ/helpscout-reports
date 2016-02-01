@@ -10,6 +10,7 @@ module.exports = function(grunt) { 'use strict';
     dist: 'public',
     liveReload: 42526,
     port: 80,
+    ghPages: '_site',
     rsyncHost: 'root@162.243.32.19',
     src: 'src',
     temp: '.tmp',
@@ -20,6 +21,13 @@ module.exports = function(grunt) { 'use strict';
   grunt.initConfig({
 
     config: config,
+
+    'gh-pages': {
+      options: {
+        base: '<%= config.ghPages %>'
+      },
+      src: '**/*'
+    },
 
     rsync: {
       options: {
@@ -56,6 +64,6 @@ module.exports = function(grunt) { 'use strict';
   });
 
   grunt.registerTask('deploy', [
-    'rsync'
+    'gh-pages'
   ]);
 };
