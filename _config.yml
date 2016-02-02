@@ -17,3 +17,7 @@ url: "http://itsjonq.github.io/helpscout-reports" # the base hostname & protocol
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - node_modules
+  - .grunt

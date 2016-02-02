@@ -25,12 +25,14 @@
     text-shadow: -1px -1px 0 #d8dee0,1px -1px 0 #d8dee0,-1px 1px 0 #d8dee0,1px 1px 0 #d8dee0;
     top: 0;
   }
-
-  &__body {
-    border-top: $HS-border;
-    margin-top: 26px;
-  }
 }
+
+.c-browser-body {
+  border-top: $HS-border;
+  position: relative;
+  margin-top: 26px;
+}
+
 
 // Modifiers
 .c-browser--sm {
@@ -39,7 +41,20 @@
     padding: 3px 0 20px 5px;
   }
 
-  .c-browser__body {
+  .c-browser-body {
     margin-top: 18px;
+  }
+}
+
+.c-browser-body--hd {
+  padding-bottom: 56.25%;
+  overflow: hidden;
+
+  .c-browser-body__media {
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
