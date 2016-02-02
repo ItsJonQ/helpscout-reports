@@ -5844,15 +5844,27 @@ img {
     text-align: left;
     text-shadow: -1px -1px 0 #d8dee0,1px -1px 0 #d8dee0,-1px 1px 0 #d8dee0,1px 1px 0 #d8dee0;
     top: 0; }
-  .c-browser__body {
-    border-top: 1px solid #eee;
-    margin-top: 26px; }
+
+.c-browser-body {
+  border-top: 1px solid #eee;
+  position: relative;
+  margin-top: 26px; }
 
 .c-browser--sm:before {
   font-size: 1.5em;
   padding: 3px 0 20px 5px; }
-.c-browser--sm .c-browser__body {
+.c-browser--sm .c-browser-body {
   margin-top: 18px; }
+
+.c-browser-body--hd {
+  padding-bottom: 56.25%;
+  overflow: hidden; }
+  .c-browser-body--hd .c-browser-body__media {
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
 
 .c-navbar {
   background: #2a4258;
